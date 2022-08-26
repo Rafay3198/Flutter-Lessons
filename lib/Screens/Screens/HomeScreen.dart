@@ -8,10 +8,21 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       drawer: Drawer(child: Center(child: Text("I am Drawer"),),),
       appBar: AppBar(
+        backgroundColor: Colors.amber,
         title: Container(
-          child: Center(child: Text("My App"))),
+          child:  Text("Home",
+            style: TextStyle(
+            ),
+          )
+          ),
       ),
-      body: Center(child: Text("Hi")),
+      body: Center(child: Text("Home Page",
+        style: TextStyle(
+          color: Colors.amber,
+          fontSize: 19,
+          fontWeight: FontWeight.bold
+        ),
+      )),
     );
   }
 }
