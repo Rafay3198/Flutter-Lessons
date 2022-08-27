@@ -11,10 +11,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      // theme: ThemeData(
+      //   // fontFamily: GoogleFonts.lato().fontFamily
+      // ),
       // home: LoginScreen(),
       // initialRoute: "/login",
       routes: {
-        "/": (context) => HomeScreen(),
+        "/": (context) => LoginScreen(),
         "/login": (context) => LoginScreen()
       },
     );
