@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         fontFamily: GoogleFonts.lato().fontFamily,
         primaryColor: Colors.purple,
-        // primarySwatch: Colors.purple
+        primarySwatch: Colors.deepPurple
       ),
       // home: LoginScreen(),
       // initialRoute: "/login",
